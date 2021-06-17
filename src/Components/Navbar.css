@@ -1,4 +1,64 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
+  position: sticky;
+  height: 95px;
+  width: 100%;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signUp {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+    border-radius: 5px;
+    background: #fafafa;
+    font-size: x-small;
+    margin: 20px;
+    text-align: center;
+    min-width: 125px;
+    cursor: pointer;
+    background-color: var(--background-color);
+    --accent-color: #7a78e2;
+}
+
+.btn.btn-slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--accent-color);
+    transition: transform 50ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.btn.btn-slide:hover::before{
+    transform: scaleX(1);
+}
+
+.btn.btn-slide{
+    transition: color 50ms ease-in-out;
+    z-index: 1;
+}
+
+.btn.btn-slide:hover{
+    color: #fafafa;
 }
