@@ -1,12 +1,13 @@
 *{
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #fafafa;
   box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
   position: sticky;
@@ -14,62 +15,43 @@
   width: 100%;
 }
 
-.logo {
-  margin-left: auto;
-  margin-right: auto;
+.brand-title {
+  font-size: 1.5rem;
+  margin: 2.5rem;
 }
 
-.logo:hover{
+.brand-title:hover{
   color: rgb(175, 155, 155);
   cursor: pointer;
 }
 
-.signup {
-  margin-left: auto;
-  margin-right: auto;
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 2.5rem;
 }
 
-.btn.btn-slide{
-    border-radius: 5px;
-    text-decoration: none;
-    background: #fafafa;
-    font-size: x-small;
-    margin: 20px;
-    text-align: center;
-    min-width: 125px;
-    cursor: pointer;
-    border: 1px solid black;
+.navbar-links li{
+  list-style: none;
+  text-decoration: none;
+  background: #fafafa;
+  text-align: center;
+  cursor: pointer;
 }
 
-.btn.btn-slide:hover{
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+  font-size: 1rem;
+}
+
+.navbar-links li a:hover{
+  border-radius: 5px;
   text-decoration: none;
   background-color: rgb(175, 155, 155);
   color: #fafafa;
 }
 
-/* .btn.btn-slide::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    background-color: var(--accent-color);
-    transition: transform 50ms ease-in-out;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-
-.btn.btn-slide:hover::before{
-    transform: scaleX(1);
-}
-
-.btn.btn-slide{
-    transition: color 50ms ease-in-out;
-    z-index: 1;
-}
-
-.btn.btn-slide:hover{
-    color: #fafafa;
-} */

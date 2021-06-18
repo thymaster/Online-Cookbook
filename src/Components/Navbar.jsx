@@ -5,27 +5,21 @@ export const Navbar = () => {
   return (
     <body>
       <header className="navbar">
-        <div className="logo">
-          <span>
-            <h1>Bits n Bytes</h1>
-          </span>
+        <div className="brand-title">
+          <h1>Bits n Bytes</h1>
         </div>
-        <div className="signup">
-          <span>
-            <button className="btn btn-slide">
-              <h2>Contact</h2>
-            </button>
-          </span>
-          <span>
-            <button className="btn btn-slide">
-              <h2>Sign In</h2>
-            </button>
-          </span>
-          <span>
-            <button className="btn btn-slide">
-              <h2>Sign Up</h2>
-            </button>
-          </span>
+        <div className="navbar-links">
+          <ul>
+            <li className="li li-slide">
+              <a href="#">Contact</a>
+            </li>
+            <li className="li li-slide">
+              <a href="#">Sign In</a>
+            </li>
+            <li className="li li-slide">
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
         </div>
       </header>
     </body>
