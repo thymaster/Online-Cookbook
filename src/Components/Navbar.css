@@ -1,6 +1,6 @@
-*,
-*::before,
-*::after {
+*{
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
@@ -19,24 +19,35 @@
   margin-right: auto;
 }
 
-.signUp {
+.logo:hover{
+  color: rgb(175, 155, 155);
+  cursor: pointer;
+}
+
+.signup {
   margin-left: auto;
   margin-right: auto;
 }
 
-.btn{
+.btn.btn-slide{
     border-radius: 5px;
+    text-decoration: none;
     background: #fafafa;
     font-size: x-small;
     margin: 20px;
     text-align: center;
     min-width: 125px;
     cursor: pointer;
-    background-color: var(--background-color);
-    --accent-color: #7a78e2;
+    border: 1px solid black;
 }
 
-.btn.btn-slide::before{
+.btn.btn-slide:hover{
+  text-decoration: none;
+  background-color: rgb(175, 155, 155);
+  color: #fafafa;
+}
+
+/* .btn.btn-slide::before{
     content: '';
     position: absolute;
     top: 0;
@@ -61,4 +72,4 @@
 
 .btn.btn-slide:hover{
     color: #fafafa;
-}
+} */
