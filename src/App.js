@@ -1,6 +1,4 @@
 import React from "react";
-import { About } from "./Components/About";
-import { Footer } from "./Components/Footer";
 import { Register } from "./Components/Register";
 import { Signin } from "./Components/Signin";
 import { Home } from "./Components/Home";
@@ -17,8 +15,6 @@ function App() {
             <Route path="/register" component={Register} />
             <Route path="/signin" component={Signin} />
           </Switch>
-            <About />
-            <Footer />
         </div>
       </BrowserRouter>
     </div>

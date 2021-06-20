@@ -26,7 +26,7 @@ export const Navbar = () => {
             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
           >
             <svg
-              fill="black"
+              fill="green"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
