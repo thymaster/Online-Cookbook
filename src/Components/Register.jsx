@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Styles/Register.css";
 
 export const Register = () => {
@@ -30,24 +31,26 @@ export const Register = () => {
         </a>
       </div>
       <div className="credentials">
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name" required>Name</label>
         <br />
         <input type="text" />
         <br />
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" required>Email</label>
         <br />
         <input type="email" />
         <br />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password" required>Password</label>
         <br />
         <input type="password" />
         <br />
         <input type="checkbox" />
-        <label htmlFor="checkbox">I agree to the terms and conditions</label>
+        <label htmlFor="checkbox" required>I agree to the terms and conditions</label>
         <br />
         <button className="register-button">Sign Up</button>
         <a href="#">
-          <h2>Already Registered, Sign In Instead!</h2>
+          <Link to="/signin">
+            <h2>Already Registered, Sign In Instead!</h2>
+          </Link>
         </a>
       </div>
     </div>
