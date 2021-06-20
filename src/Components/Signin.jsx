@@ -33,22 +33,22 @@ export const Signin = () => {
         </div>
         <div className="credentials">
           <div className="text-material">
-            <label htmlFor="email" required>
+            <label className="alignment" htmlFor="email" required>
               Email
             </label>
             <br />
-            <input type="email" />
+            <input className="alignment" type="email" />
             <br />
-            <label htmlFor="password" required>
+            <label className="alignment" htmlFor="password" required>
               Password
             </label>
             <br />
-            <input type="password" />
+            <input className="alignment" type="password" />
             <br />
             <button className="register-button">Sign In</button>
             <a href="#">
               <Link to="/register">
-                <h2>Not Registered Yet? Create An Account Instead!</h2>
+                <h2 className="alternate-instruction">Not Registered Yet? Create An Account Instead!</h2>
               </Link>
             </a>
           </div>
