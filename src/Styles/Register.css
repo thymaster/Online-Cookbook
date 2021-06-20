@@ -1,0 +1,17 @@
+.floating-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
