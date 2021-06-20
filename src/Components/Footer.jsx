@@ -4,6 +4,7 @@ import "../Styles/Footer.css";
 export const Footer = () => {
   return (
     <div>
+      {/* Designed by self */}
       {/* <footer className="footer">
         <div className="brand-title-footer">
           <h4>
@@ -46,7 +47,7 @@ export const Footer = () => {
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a href="https://www.google.com" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <svg
-                fill="black"
+                fill="green"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"

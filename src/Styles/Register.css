@@ -8,24 +8,14 @@
   /* display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: auto;
-  margin-bottom: auto;
   align-items: center; */
-  margin-left: auto;
-  margin-right: auto;
-  height: 80vh;
+  margin: auto auto;
+  height: 90vh;
   width: 360px;
   background-color: rgb(250, 250, 250);
   box-sizing: border-box;
   border-radius: 7px;
   box-shadow: rgb(0 0 0 / 16%) 3px 6px 6px;
-}
-
-.signup-form credentials {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 .graphic {
