@@ -45,10 +45,15 @@ export const Signin = () => {
             <br />
             <input className="alignment" type="password" />
             <br />
-            <button className="register-button">Sign In</button>
+            <a href="#">
+              <div className="forgot-password">Forgot Password?</div>
+            </a>
+            <button className="signin-button">Sign In</button>
             <a href="#">
               <Link to="/register">
-                <h2 className="alternate-instruction">Not Registered Yet? Create An Account Instead!</h2>
+                <h2 className="alternate-instruction">
+                  Not Registered Yet? Create An Account Instead!
+                </h2>
               </Link>
             </a>
           </div>
