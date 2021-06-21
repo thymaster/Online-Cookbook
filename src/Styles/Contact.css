@@ -1,8 +1,32 @@
+.navbar-style-for-contact {
+  /* overflow: hidden; */
+  position: sticky;
+  background: transparent;
+}
+
+.designer-name {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  color: #666;
+  font-style: normal;
+  font-family: Muli,Helvetica Neue,sans-serif;
+  font-size: 2.441rem;
+  font-style: bold;
+  font-weight: 900;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: .563em;
+  width: 93%;
+}
+
 .floating-container {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNDAwIDQwMCc+CjxkZWZzPgoJPHBhdHRlcm4gaWQ9J2JsdWVzdHJpcGUnIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIHg9JzAnIHk9JzAnIHdpZHRoPScxMCcgaGVpZ2h0PScyMCcgdmlld0JveD0nMCAwIDUgMTAnID4KCQk8cmVjdCB4PSctNScgeT0nLTUnIHdpZHRoPScxNScgaGVpZ2h0PScyMCcgZmlsbD0nI2Q2ZGRkZCcvPgoJCTxsaW5lIHgxPSctMicgeTE9JzEnIHgyPSc3JyB5Mj0nMTAnIHN0cm9rZT0nI2RkZTJlMycgc3Ryb2tlLXdpZHRoPScyJy8+CgkJPGxpbmUgeDE9Jy0yJyB5MT0nNicgeDI9JzcnIHkyPScxNScgc3Ryb2tlPScjZGRlMmUzJyBzdHJva2Utd2lkdGg9JzInLz4KCQk8bGluZSB4MT0nLTInIHkxPSctNCcgeDI9JzcnIHkyPSc1JyBzdHJva2U9JyNkZGUyZTMnIHN0cm9rZS13aWR0aD0nMicvPgoJCTxsaW5lIHgxPSc3JyB5MT0nMScgeDI9Jy0yJyB5Mj0nMTAnIHN0cm9rZT0nI2RkZTJlMycgc3Ryb2tlLXdpZHRoPScyJy8+CgkJPGxpbmUgeDE9JzcnIHkxPSc2JyB4Mj0nLTInIHkyPScxNScgc3Ryb2tlPScjZGRlMmUzJyBzdHJva2Utd2lkdGg9JzInLz4KCQk8bGluZSB4MT0nNycgeTE9Jy00JyB4Mj0nLTInIHkyPSc1JyBzdHJva2U9JyNkZGUyZTMnIHN0cm9rZS13aWR0aD0nMicvPgoJPC9wYXR0ZXJuPiAKCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgcmVzdWx0PSd0JyBiYXNlRnJlcXVlbmN5PScuMiAuMScgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJCTxmZUNvbG9yTWF0cml4IHR5cGU9J3NhdHVyYXRlJyBpbj0ndCcgdmFsdWVzPScwLjQnLz4KCQk8ZmVDb252b2x2ZU1hdHJpeCBvcmRlcj0nMywzJyBrZXJuZWxNYXRyaXg9JzAsLS4yNSwwLC0uMjUsMiwtLjI1LDAsLS4yNSwwJy8+Cgk8L2ZpbHRlcj4KPC9kZWZzPgo8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPSd1cmwoI2JsdWVzdHJpcGUpJy8+CjxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbHRlcj0ndXJsKCNmdXp6KScgb3BhY2l0eT0nMC4xJy8+Cjwvc3ZnPg==);
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
