@@ -46,10 +46,30 @@
   vertical-align: middle;
 }
 
-img {
-  /* border-radius: 50%; */
+.picture {
+  border-radius: 50%;
+  vertical-align: middle;
   max-width: 100%;
   height: auto;
+}
+
+.about {
+  line-height: 1.875rem;
+  margin-bottom: 1.3em;
+}
+
+.email {
+  margin-top: auto;
+  margin-bottom: 1.3em;
+}
+
+.email:hover {
+  text-decoration: underline rgb(112, 163, 183);
+  cursor: pointer;
+}
+
+.email-hyperlink:hover {
+  color: rgb(112, 163, 183);
 }
 
 .graphic {

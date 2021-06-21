@@ -9,10 +9,10 @@
 
 .signup-form {
   background: rgb(175, 121, 121);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; */
+  align-items: center;
   margin-top: auto;
   margin-bottom: auto;
   width: 360px;
@@ -27,7 +27,8 @@
   margin-bottom: 40px;
 }
 
-input {
+.for-alignment {
+  margin-top: 10px;
   color: rgb(68, 68, 68);
   width: 100%;
   background-color: transparent;
@@ -39,10 +40,6 @@ input {
   border-bottom: 1.2px solid rgb(230, 230, 230);
   padding-bottom: 5px;
   font-size: 1rem;
-}
-
-.for-alignment {
-  margin: 10px 10px;
 }
 
 .signup-button {

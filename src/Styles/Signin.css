@@ -27,7 +27,8 @@
   margin-bottom: 40px;
 }
 
-input {
+.alignment {
+  margin-top: 10px;
   color: rgb(68, 68, 68);
   width: 100%;
   background-color: transparent;
@@ -39,11 +40,6 @@ input {
   border-bottom: 1.2px solid rgb(230, 230, 230);
   padding-bottom: 5px;
   font-size: 1rem;
-}
-
-.alignment {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .forgot-password {
