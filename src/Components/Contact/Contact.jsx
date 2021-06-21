@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import { Navbar } from "./Navbar";
-import "../Styles/Contact.css";
+import { Navbar } from "../Navbar/Navbar";
+import "../Contact/Contact.css";
 
 export const Contact = () => {
   return (
@@ -19,24 +19,12 @@ export const Contact = () => {
                 <div className="photograph">
                   <img
                     className="picture"
-                    src="https://twitter.com/Anish16065/photo"
+                    src="./anish.jpg"
                     alt="avatar"
                   />
                 </div>
               </div>
             </div>
-            <p className="about">
-              As the designer and developer I take care of the visual features
-              and the technical details to make sure you have seamless
-              experience. Should you come across any bug, feel free to contact
-              me.
-            </p>
-            <p className="about">
-              As the designer and developer I take care of the visual features
-              and the technical details to make sure you have seamless
-              experience. Should you come across any bug, feel free to contact
-              me.
-            </p>
             <p className="about">
               As the designer and developer I take care of the visual features
               and the technical details to make sure you have seamless

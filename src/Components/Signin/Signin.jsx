@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Signin.css";
+import "../Signin/Signin.css";
 
 export const Signin = () => {
   return (

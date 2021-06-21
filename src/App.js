@@ -1,8 +1,8 @@
 import React from "react";
-import { Register } from "./Components/Register";
-import { Signin } from "./Components/Signin";
-import { Home } from "./Components/Home";
-import { Contact } from "./Components/Contact";
+import { Register } from "./Components/Register/Register";
+import { Signin } from "./Components/Signin/Signin";
+import { Home } from "./Components/Home/Home";
+import { Contact } from "./Components/Contact/Contact";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import "./App.css";
 

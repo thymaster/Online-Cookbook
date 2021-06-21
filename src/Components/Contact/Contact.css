@@ -1,14 +1,6 @@
-.navbar-style-for-contact {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    position: fixed;
-    top: 0px;
-    display: flex;
-    align-items: center;
+/* .navbar-style-for-contact {
     border-bottom: 3px solid rgba(221, 226, 227, 0.2);
-    padding: 0px 1em;
-    z-index: 5;
-}
+} */
 
 .designer-name {
   text-align: center;
@@ -42,7 +34,7 @@
   width: 400px;
   height: 590px;
   flex-direction: column;
-  background-color: #fafafa;
+  background-color: rgb(255, 255, 255);
   border-radius: 7px;
   box-shadow: rgb(0 0 0 / 16%) 3px 6px 6px;
 }
