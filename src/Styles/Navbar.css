@@ -4,14 +4,23 @@
 }
 
 .navbar {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   background: #fafafa;
   box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
   position: sticky;
   height: 95px;
+  width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 95px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
+  position: fixed;
+  padding: 0px 1em;
 }
 
 .brand-title {
@@ -34,7 +43,7 @@
 .navbar-links li{
   list-style: none;
   text-decoration: none;
-  background: #fafafa;
+  /* background: #fafafa; */
   text-align: center;
   cursor: pointer;
 }
@@ -51,6 +60,6 @@
   border-radius: 5px;
   text-decoration: none;
   background-color: rgb(175, 155, 155);
-  color: #fafafa;
+  color: rgb(255, 255, 255);
 }
 

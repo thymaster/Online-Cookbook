@@ -1,7 +1,13 @@
 .navbar-style-for-contact {
-  /* overflow: hidden; */
-  position: sticky;
-  background: transparent;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgba(221, 226, 227, 0.2);
+    padding: 0px 1em;
+    z-index: 5;
 }
 
 .designer-name {
@@ -11,13 +17,13 @@
   margin-bottom: 30px;
   color: #666;
   font-style: normal;
-  font-family: Muli,Helvetica Neue,sans-serif;
+  font-family: Muli, Helvetica Neue, sans-serif;
   font-size: 2.441rem;
   font-style: bold;
   font-weight: 900;
   margin: auto;
   padding-top: 1em;
-  padding-bottom: .563em;
+  padding-bottom: 0.563em;
   width: 93%;
 }
 
@@ -87,12 +93,8 @@
   margin-bottom: 1.3em;
 }
 
-.email:hover {
-  text-decoration: underline rgb(112, 163, 183);
-  cursor: pointer;
-}
-
 .email-hyperlink:hover {
+  text-decoration: underline rgb(112, 163, 183);
   color: rgb(112, 163, 183);
 }
 

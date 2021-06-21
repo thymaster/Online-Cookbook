@@ -6,7 +6,9 @@ import "../Styles/Contact.css";
 export const Contact = () => {
   return (
     <div>
-      <Navbar className="navbar-style-for-contact" />
+      <div className="navbar-style-for-contact">
+        <Navbar />
+      </div>
       {/* <Link to="/contact"></Link> */}
       <div className="floating-container">
         <h1 className="designer-name">Anish Sarkar</h1>
@@ -17,12 +19,24 @@ export const Contact = () => {
                 <div className="photograph">
                   <img
                     className="picture"
-                    src="./anish_400x400.jpg"
+                    src="https://twitter.com/Anish16065/photo"
                     alt="avatar"
                   />
                 </div>
               </div>
             </div>
+            <p className="about">
+              As the designer and developer I take care of the visual features
+              and the technical details to make sure you have seamless
+              experience. Should you come across any bug, feel free to contact
+              me.
+            </p>
+            <p className="about">
+              As the designer and developer I take care of the visual features
+              and the technical details to make sure you have seamless
+              experience. Should you come across any bug, feel free to contact
+              me.
+            </p>
             <p className="about">
               As the designer and developer I take care of the visual features
               and the technical details to make sure you have seamless
