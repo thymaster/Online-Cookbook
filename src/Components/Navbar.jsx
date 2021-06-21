@@ -23,7 +23,7 @@ export const Navbar = () => {
           </a> */}
           <Link to="/">
             <a
-              href="#"
+              href="/"
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
             >
               <svg

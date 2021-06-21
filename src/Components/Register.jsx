@@ -9,7 +9,7 @@ export const Register = () => {
         <div className="title">
           <Link to="/">
             <a
-              href="https://www.google.com"
+              href="/"
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
             >
               <svg
