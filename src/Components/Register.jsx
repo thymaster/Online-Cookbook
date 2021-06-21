@@ -32,34 +32,31 @@ export const Register = () => {
           </a>
         </div>
         <div className="credentials">
-          <div className="text-material">
-            <label htmlFor="name" required>
+          <div className="details">
+            <label className="for-alignment" htmlFor="name" required>
               Name
             </label>
             <br />
-            <input type="text" />
+            <input className="for-alignment" type="text" />
             <br />
-            <label htmlFor="email" required>
+            <label className="for-alignment" htmlFor="email" required>
               Email
             </label>
             <br />
-            <input type="email" />
+            <input className="for-alignment" type="email" />
             <br />
-            <label htmlFor="password" required>
+            <label className="for-alignment" htmlFor="password" required>
               Password
             </label>
             <br />
-            <input type="password" />
+            <input className="for-alignment" type="password" />
             <br />
-            <input type="checkbox" />
-            <label htmlFor="checkbox" required>
-              I agree to the terms and conditions
-            </label>
-            <br />
-            <button className="register-button">Sign Up</button>
+            <button className="signup-button">Sign Up</button>
             <a href="#">
               <Link to="/signin">
-                <h2>Already Registered? Sign In Instead!</h2>
+                <h2 className="instruction">
+                  Already Registered? Sign In Instead!
+                </h2>
               </Link>
             </a>
           </div>
