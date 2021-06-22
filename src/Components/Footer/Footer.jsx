@@ -78,22 +78,14 @@ export const Footer = () => {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                <a
-                  href="https://www.google.com"
-                  className="text-gray-600 hover:text-gray-800"
-                >
-                  ABOUT US
-                </a>
-              </h2>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                <a
-                  href="https://www.google.com"
-                  className="text-gray-600 hover:text-gray-800"
-                >
-                  PRIVACY POLICY
-                </a>
+                <Link to="/about-us">
+                  <a
+                    href="/about-us"
+                    className="text-gray-600 hover:text-gray-800"
+                  >
+                    ABOUT US
+                  </a>
+                </Link>
               </h2>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -111,7 +103,17 @@ export const Footer = () => {
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                 <a
-                  href="https://www.google.com"
+                  href="https://www.termsfeed.com/live/a8b85282-325b-49d2-8dcc-7ae321ef8870"
+                  className="text-gray-600 hover:text-gray-800"
+                >
+                  PRIVACY POLICY
+                </a>
+              </h2>
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                <a
+                  href="https://www.termsfeed.com/live/24464af3-edde-4b5f-a077-202d8171d534"
                   className="text-gray-600 hover:text-gray-800"
                 >
                   TERMS AND CONDITIONS
@@ -123,7 +125,7 @@ export const Footer = () => {
         <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2021 Bits n Bytes — ALL RIGHTS RESERVED —
+              © 2021 Bits n Bytes — All Rights Reserved —
               <a
                 href="https://github.com/thymaster"
                 rel="noopener noreferrer"

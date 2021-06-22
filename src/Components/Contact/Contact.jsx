@@ -19,7 +19,7 @@ export const Contact = () => {
                 <div className="photograph">
                   <img
                     className="picture"
-                    src="./anish.jpg"
+                    src="/anish.jpg"
                     alt="avatar"
                   />
                 </div>

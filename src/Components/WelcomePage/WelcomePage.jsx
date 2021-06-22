@@ -1,7 +1,7 @@
 import React from "react";
-import "../About/About.css";
+import "./WelcomePage.css";
 
-export const About = () => {
+export const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <section className="sections create-account">create account</section>

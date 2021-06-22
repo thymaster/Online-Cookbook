@@ -1,13 +1,13 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
-import { About } from "../About/About";
+import { WelcomePage } from "../WelcomePage/WelcomePage";
 import { Footer } from "../Footer/Footer";
 
 export const Home = () => {
   return (
     <div>
       <Navbar />
-      <About />
+      <WelcomePage />
       <Footer />
     </div>
   );
