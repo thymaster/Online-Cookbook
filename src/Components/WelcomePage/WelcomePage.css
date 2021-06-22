@@ -12,10 +12,32 @@
   align-items: center;
 }
 
+.welcome-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catch-phrase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .create-account {
   background-color: aquamarine;
-  width: 90vw;
-  height: 150vh;
+  background-image: url(https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_650,q_auto,w_1580/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner_-_Desktop_v3.jpg);
+  width: 100vw;
+  height: 90vh;
+  overflow: auto;
+  font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #343434;
+  font-size: 16px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
 }
 
 .make-your-own {

@@ -76,18 +76,18 @@ export const Footer = () => {
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                <Link to="/about-us">
+                <Link to="/aboutus">
                   <a
-                    href="/about-us"
+                    href="/aboutus"
                     className="text-gray-600 hover:text-gray-800"
                   >
                     ABOUT US
                   </a>
                 </Link>
               </h2>
-            </div>
+            </div> */}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                 <Link to="/contact">

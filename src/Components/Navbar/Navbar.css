@@ -1,18 +1,18 @@
-.brand-title{
+.brand-title {
   display: flex;
   justify-content: space-around;
 }
 
 .navbar {
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   background: #fafafa;
   box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
   position: sticky;
   height: 95px;
-  width: 100%; */
-  display: flex;
+  width: 100%;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   height: 95px;
@@ -20,7 +20,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 8px 6px -6px rgb(187, 182, 182);
   position: fixed;
-  padding: 0px 1em;
+  padding: 0px 1em; */
 }
 
 .brand-title {
@@ -28,19 +28,19 @@
   margin: 2.5rem;
 }
 
-.brand-title:hover{
+.brand-title:hover {
   color: rgb(175, 155, 155);
   cursor: pointer;
 }
 
-.navbar-links ul{
+.navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
   margin: 2.5rem;
 }
 
-.navbar-links li{
+.navbar-links li {
   list-style: none;
   text-decoration: none;
   /* background: #fafafa; */
@@ -56,10 +56,9 @@
   font-size: 1rem;
 }
 
-.navbar-links li a:hover{
+.navbar-links li a:hover {
   border-radius: 5px;
   text-decoration: none;
   background-color: rgb(175, 155, 155);
   color: rgb(255, 255, 255);
 }
-
