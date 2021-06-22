@@ -6,7 +6,7 @@ import "./WelcomePage.css";
 export const WelcomePage = () => {
   return (
     <div className="welcome-page">
-      <section className="create-account">
+      <section className="sections create-account">
         <div className="welcome-section">
           <div className="welcome-heading">
             <div className="catch-phrase">
@@ -29,7 +29,7 @@ export const WelcomePage = () => {
           </div>
         </div>
       </section>
-      <section className="make-your-own">
+      <section className="sections make-your-own">
         <div className="make-section">
           <div className="content-container">
             <div className="section-image">
@@ -38,40 +38,42 @@ export const WelcomePage = () => {
                 alt="picture of ingredients on various spoons"
               />
             </div>
-            <div>
-              <span>
+            <div className="section-text">
+              <div>
                 <h1 className="heading">Create anything you imagine</h1>
                 <p className="para">
-                  Bring out the master chef in you with Bits n Bytes recipe
-                  editor. <br />
+                  Bring out the master chef in you <br />
+                  with Bits n Bytes recipe editor. <br />
                   Be as creative as you are.
                 </p>
-              </span>
-              <span>
+              </div>
+              <div>
                 <h1 className="heading">All your recipes in one place.</h1>
                 <p className="para">
-                  With all your work taken care by us, you can just focus on
+                  With all your work taken care by us, <br />
+                  you can just focus on <br />
                   making the best ever food.
                 </p>
-              </span>
-              <span>
+              </div>
+              <div>
                 <h1 className="heading">Meal Planner</h1>
                 <p className="para">
                   Busy with your work? <br />
-                  Plan your meals ahead, so that you can directly jump to
+                  Plan your meals ahead, <br />
+                  so that you can directly jump to
                   business.
                 </p>
-              </span>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="add-recipes">add your recipes</section>
-      <section className="organize-recipes">
+      <section className="sections add-recipes">add your recipes</section>
+      <section className="sections organize-recipes">
         organize your own recipes
       </section>
-      <section className="find-recipes">find new recipes</section>
-      <section className="meal-planner">meal planner</section>
+      <section className="sections find-recipes">find new recipes</section>
+      <section className="sections meal-planner">meal planner</section>
     </div>
   );
 };
