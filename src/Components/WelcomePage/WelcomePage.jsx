@@ -1,24 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./WelcomePage.css";
 
 export const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <section className="sections create-account">
-        <div>
+        <div className="welcome-section">
           <div className="welcome-heading">
             <div className="catch-phrase">
               <span>
-                <h1> Make the best</h1>
+                <h1 className="large-font"> Make the best</h1>
               </span>
-              <div>Food/Drink</div>
-              <span>in the world</span>
+              <div className="animated-font">Food/Drink</div>
+              <span className="medium-font">in the world</span>
             </div>
             <span>
-              <h2>For the artist in you, who just happen to use utensils</h2>
+              <h2 className="catch-tag">
+                For the artist in you, who just happen to use utensils
+              </h2>
             </span>
             <div>
-              <button>Create Account</button>
+              <Link to="/register">
+                <button className="create-account-button">
+                  Create Account
+                </button>
+              </Link>
             </div>
           </div>
         </div>
