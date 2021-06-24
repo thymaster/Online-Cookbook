@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../Navbar/Navbar.css";
 
 export const Navbar = (props) => {
-  const {makeOpaque} = props;      //de-serialzie
+  const {makeOpaque} = props;      
   return (
     <div>
       <nav className={makeOpaque ? "navbar navbar-opaque" : "navbar"}>
