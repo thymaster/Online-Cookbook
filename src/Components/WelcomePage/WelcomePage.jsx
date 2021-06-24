@@ -34,35 +34,29 @@ export const WelcomePage = () => {
           <div className="content-container">
             <div className="section-image">
               <img
-                src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+              className="img"
+                src="https://images.unsplash.com/photo-1514986888952-8cd320577b68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
                 alt="picture of ingredients on various spoons"
               />
             </div>
             <div className="section-text">
-              <div>
-                <h1 className="heading">Create anything you imagine</h1>
-                <p className="para">
-                  Bring out the master chef in you <br />
-                  with Bits n Bytes recipe editor. <br />
-                  Be as creative as you are.
-                </p>
+              <div className="information">
+                Create anything you imagine <br />
+                Bring out the master chef in you <br />
+                with Bits n Bytes recipe editor. <br />
+                Be as creative as you are. <br />
               </div>
-              <div>
-                <h1 className="heading">All your recipes in one place.</h1>
-                <p className="para">
-                  With all your work taken care by us, <br />
-                  you can just focus on <br />
-                  making the best ever food.
-                </p>
+              <div className="information">
+                All your recipes in one place. <br />
+                With all your work taken care by us, <br />
+                you can just focus on <br />
+                making the best ever food. <br />
               </div>
-              <div>
-                <h1 className="heading">Meal Planner</h1>
-                <p className="para">
-                  Busy with your work? <br />
-                  Plan your meals ahead, <br />
-                  so that you can directly jump to
-                  business.
-                </p>
+              <div className="information">
+                Meal Planner <br />
+                Busy with your work? <br />
+                Plan your meals ahead, <br />
+                so that you can directly jump to business. <br />
               </div>
             </div>
           </div>

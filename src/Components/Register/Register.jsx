@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Register/Register.css";
 
-export const Register = () => {
+export const Register = (props) => {
+  const { isSignUp } = props;
+
   return (
     <div className="floating-container">
       <div className="signup-form">
@@ -35,12 +37,16 @@ export const Register = () => {
         </div>
         <div className="credentials">
           <div className="details">
-            <label className="for-alignment" htmlFor="name" required>
-              Name
-            </label>
-            <br />
-            <input className="for-alignment" type="text" />
-            <br />
+            {isSignUp && (
+              <div>
+                <label className="for-alignment" htmlFor="name" required>
+                  Name
+                </label>
+                <br />
+                <input className="for-alignment" type="text" />
+                <br />
+              </div>
+            )}
             <label className="for-alignment" htmlFor="email" required>
               Email
             </label>
@@ -53,11 +59,20 @@ export const Register = () => {
             <br />
             <input className="for-alignment" type="password" />
             <br />
-            <button className="signup-button">Sign Up</button>
+            {!isSignUp && (
+              <a href="#">
+                <div className="forgot-password">Forgot Password?</div>
+              </a>
+            )}
+            <button className="signup-button">
+              {isSignUp ? "Sign Up" : "Sign In"}
+            </button>
             <a href="#">
-              <Link to="/signin">
+              <Link to={isSignUp ? "/signin" : "/register"}>
                 <h2 className="instruction">
-                  Already Registered? Sign In Instead!
+                  {isSignUp
+                    ? "Already Registered? Sign In Instead!"
+                    : "Not Registered Yet? Create An Account Instead!"}
                 </h2>
               </Link>
             </a>

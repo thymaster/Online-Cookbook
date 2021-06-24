@@ -5,9 +5,9 @@ import "../Contact/Contact.css";
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="contact-container">
       <div className="navbar-style-for-contact">
-        <Navbar />
+        <Navbar makeOpaque={true} />
       </div>
       {/* <Link to="/contact"></Link> */}
       <div className="floating-container">

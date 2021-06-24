@@ -6,13 +6,13 @@
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNDAwIDQwMCc+CjxkZWZzPgoJPHBhdHRlcm4gaWQ9J2JsdWVzdHJpcGUnIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIHg9JzAnIHk9JzAnIHdpZHRoPScxMCcgaGVpZ2h0PScyMCcgdmlld0JveD0nMCAwIDUgMTAnID4KCQk8cmVjdCB4PSctNScgeT0nLTUnIHdpZHRoPScxNScgaGVpZ2h0PScyMCcgZmlsbD0nI2Q2ZGRkZCcvPgoJCTxsaW5lIHgxPSctMicgeTE9JzEnIHgyPSc3JyB5Mj0nMTAnIHN0cm9rZT0nI2RkZTJlMycgc3Ryb2tlLXdpZHRoPScyJy8+CgkJPGxpbmUgeDE9Jy0yJyB5MT0nNicgeDI9JzcnIHkyPScxNScgc3Ryb2tlPScjZGRlMmUzJyBzdHJva2Utd2lkdGg9JzInLz4KCQk8bGluZSB4MT0nLTInIHkxPSctNCcgeDI9JzcnIHkyPSc1JyBzdHJva2U9JyNkZGUyZTMnIHN0cm9rZS13aWR0aD0nMicvPgoJCTxsaW5lIHgxPSc3JyB5MT0nMScgeDI9Jy0yJyB5Mj0nMTAnIHN0cm9rZT0nI2RkZTJlMycgc3Ryb2tlLXdpZHRoPScyJy8+CgkJPGxpbmUgeDE9JzcnIHkxPSc2JyB4Mj0nLTInIHkyPScxNScgc3Ryb2tlPScjZGRlMmUzJyBzdHJva2Utd2lkdGg9JzInLz4KCQk8bGluZSB4MT0nNycgeTE9Jy00JyB4Mj0nLTInIHkyPSc1JyBzdHJva2U9JyNkZGUyZTMnIHN0cm9rZS13aWR0aD0nMicvPgoJPC9wYXR0ZXJuPiAKCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgcmVzdWx0PSd0JyBiYXNlRnJlcXVlbmN5PScuMiAuMScgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJCTxmZUNvbG9yTWF0cml4IHR5cGU9J3NhdHVyYXRlJyBpbj0ndCcgdmFsdWVzPScwLjQnLz4KCQk8ZmVDb252b2x2ZU1hdHJpeCBvcmRlcj0nMywzJyBrZXJuZWxNYXRyaXg9JzAsLS4yNSwwLC0uMjUsMiwtLjI1LDAsLS4yNSwwJy8+Cgk8L2ZpbHRlcj4KPC9kZWZzPgo8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPSd1cmwoI2JsdWVzdHJpcGUpJy8+CjxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbHRlcj0ndXJsKCNmdXp6KScgb3BhY2l0eT0nMC4xJy8+Cjwvc3ZnPg==);
 }
 
-.sections{
+.sections {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.welcome-section{
+.welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -20,7 +20,7 @@
   height: 70vh;
 }
 
-.welcome-heading{
+.welcome-heading {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -28,31 +28,31 @@
   height: 70vh;
 }
 
-.catch-phrase{
+.catch-phrase {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-.large-font{
+.large-font {
   font-size: 90px;
   color: #343434;
   font-style: italic;
 }
 
-.animated-font{
+.animated-font {
   font-size: 50px;
   color: #343434;
 }
 
-.medium-font{
+.medium-font {
   font-size: 50px;
   color: #343434;
   font-style: italic;
 }
 
-.catch-tag{
+.catch-tag {
   margin-top: 30px;
   display: flex;
   justify-content: center;
@@ -76,20 +76,20 @@
   min-width: 1536px;
 }
 
-.create-account-button{
+.create-account-button {
   background-color: rgb(112, 87, 45);
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 70px;
 }
 
-.create-account-button:hover{
+.create-account-button:hover {
   background-color: rgb(109, 104, 96);
   border-radius: 5px;
   padding: 10px 20px;
 }
 
-.make-your-own {
+.make-section {
   /* background-color: rgb(234, 233, 225); */
   background-size: contain;
   width: 90vw;
@@ -101,19 +101,38 @@
   min-width: 1060px;
 }
 
-.content-container{
+.content-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
+  width: 100%;
 }
 
-.section-image{
-  flex: 6 1 0%;
+.section-image {
   display: flex;
+  width: 40%;
+  height: 100%;
 }
 
-.section-text{
-  margin: auto;
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.information {
+  width: 100%;
+  font-size: large;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: unset;
 }
 
 .add-recipes {
@@ -139,4 +158,3 @@
   width: 90vw;
   height: 150vh;
 }
-

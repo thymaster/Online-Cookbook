@@ -42,6 +42,16 @@
   font-size: 1rem;
 }
 
+.forgot-password {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.forgot-password:hover {
+  text-decoration: underline rgb(112, 163, 183);
+}
+
 .signup-button {
   display: flex;
   justify-content: center;
@@ -60,10 +70,11 @@
   border-radius: 5px;
 }
 
-.instruction{
+.instruction {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 340px;
 }
 
 .instruction:hover {
