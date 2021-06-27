@@ -41,19 +41,19 @@ export const WelcomePage = () => {
             </div>
             <div className="section-text">
               <div className="information">
-                Create anything you imagine <br />
+                <b>Create anything you imagine</b>
                 Bring out the master chef in you <br />
                 with Bits n Bytes recipe editor. <br />
                 Be as creative as you are. <br />
               </div>
               <div className="information">
-                All your recipes in one place. <br />
+                <b>All your recipes in one place</b>
                 With all your work taken care by us, <br />
                 you can just focus on <br />
                 making the best ever food. <br />
               </div>
               <div className="information">
-                Meal Planner <br />
+                <b>Meal Planner</b>
                 Busy with your work? <br />
                 Plan your meals ahead, <br />
                 so that you can directly jump to business. <br />

@@ -4,6 +4,8 @@ import "../Register/Register.css";
 
 export const Register = (props) => {
   const { isSignUp } = props;
+  const { forMargin } = props;
+  const { forDetails } = props;
 
   return (
     <div className="floating-container">
@@ -36,7 +38,7 @@ export const Register = (props) => {
           </Link>
         </div>
         <div className="credentials">
-          <div className="details">
+          <div className={forDetails ? "details details-new" : "details"}>
             {isSignUp && (
               <div>
                 <label className="for-alignment" htmlFor="name" required>
@@ -77,7 +79,7 @@ export const Register = (props) => {
               </Link>
             </a>
           </div>
-          <div className="graphic"></div>
+          <div className={forMargin ? "graphic graphic-new" : "graphic"}></div>
         </div>
       </div>
     </div>
