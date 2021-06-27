@@ -144,9 +144,10 @@
 }
 
 .add-recipes {
-  /* background-color: rgb(19, 122, 88); */
+  background-color: rgb(87, 243, 191);
   width: 95%;
-  height: 150vh;
+  height: 95vh;
+  z-index: 0;
 }
 
 .organize-recipes {
