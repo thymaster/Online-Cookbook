@@ -52,17 +52,17 @@ export const Navbar = (props) => {
           <ul>
             <Link to="/contact">
               <li>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </Link>
             <Link to="/signin">
               <li>
-                <a href="#">Sign In</a>
+                <a href="/signin">Sign In</a>
               </li>
             </Link>
             <Link to="/register">
               <li>
-                <a href="#">Sign Up</a>
+                <a href="/register">Sign Up</a>
               </li>
             </Link>
           </ul>

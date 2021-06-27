@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
+import { ImageCarousel } from "../ImageCarousel/ImageCarousel";
+import { SliderData } from "../SliderData/SliderData";
+
 import "./WelcomePage.css";
 
 export const WelcomePage = () => {
@@ -34,7 +37,7 @@ export const WelcomePage = () => {
           <div className="content-container">
             <div className="section-image">
               <img
-              className="img"
+                className="img"
                 src="https://images.unsplash.com/photo-1514986888952-8cd320577b68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
                 alt="picture of ingredients on various spoons"
               />
@@ -62,7 +65,9 @@ export const WelcomePage = () => {
           </div>
         </div>
       </section>
-      <section className="sections add-recipes">add your recipes</section>
+      <section className="sections add-recipes">
+        <ImageCarousel slides={SliderData}/>
+      </section>
       <section className="sections organize-recipes">
         organize your own recipes
       </section>

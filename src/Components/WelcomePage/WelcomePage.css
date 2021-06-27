@@ -74,6 +74,7 @@
   color: #fafafa;
   font-size: 16px;
   min-width: 1536px;
+  margin-top: 50px;
 }
 
 .create-account-button {
@@ -92,7 +93,7 @@
 .make-section {
   background-color: rgb(234, 233, 225);
   background-size: contain;
-  width: 100%;
+  width: 95%;
   height: 90vh;
   font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
