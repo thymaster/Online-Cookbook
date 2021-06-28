@@ -67,7 +67,7 @@
 .create-account {
   background-image: url(https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_650,q_auto,w_1580/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner_-_Desktop_v3.jpg);
   background-repeat: no-repeat;
-  width: 100%%;
+  width: 100%;
   height: 90vh;
   overflow: auto;
   font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
@@ -94,7 +94,7 @@
 .make-section {
   background-color: rgb(234, 233, 225);
   background-size: contain;
-  width: 95%;
+  width: 99%;
   height: 90vh;
   font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
@@ -145,8 +145,9 @@
 
 .add-recipes {
   background-color: rgb(87, 243, 191);
-  width: 95%;
-  height: 95vh;
+  background-size: contain;
+  width: 78%;
+  height: 90vh;
   z-index: 0;
 }
 

@@ -20,26 +20,32 @@ export const ImageCarousel = ({ slides }) => {
   }
 
   return (
-    <div className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={previousSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt="carousel images" className="image" />
-            )}
+    <div>
+      <div>
+        <h2 className="text">Bring out the chef inside you</h2>
+      </div>
+      <div className="slider">
+        <FaArrowAltCircleLeft className="left-arrow" onClick={previousSlide} />
+        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        {SliderData.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <img
+                  src={slide.image}
+                  alt="carousel images"
+                  className="image"
+                />
+              )}
 
-            {index === current && (
-              <p className="text">{slide.text}</p>
-            )}
-
-          </div>
-        );
-      })}
+              {index === current && <p>{slide.text}</p>}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

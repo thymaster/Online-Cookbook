@@ -1,0 +1,44 @@
+.grocery-list-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.vertical-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  height: 100vh;
+  padding: 50px 10px;
+  width: 58px;
+}
+
+.root-bar {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-right: 3px solid rgb(221, 227, 227);
+}
+
+.tag-line {
+  text-align: center;
+}
+
+.add-recipe-div {
+  padding: 10px 100px;
+  border-top: 1px solid rgb(221, 227, 227);
+  border-bottom: 1px solid rgb(221, 227, 227);
+  width: 100%;
+}
+
+.add-recipe-div:hover{
+  background-color: rgb(233, 219, 219);
+  cursor: pointer;
+}
+
+.main-content{
+  padding: 20px 20px;
+}

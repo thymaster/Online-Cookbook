@@ -46,3 +46,10 @@
   color: #000;
   text-align: center;
 }
+
+.text{
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
