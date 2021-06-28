@@ -3,6 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ImageCarousel } from "../ImageCarousel/ImageCarousel";
 import { SliderData } from "../SliderData/SliderData";
+// import Typewriter from "react-typewriter";
+import Typical from "react-typical";
 
 import "./WelcomePage.css";
 
@@ -16,7 +18,37 @@ export const WelcomePage = () => {
               <span>
                 <h1 className="large-font"> Make the best</h1>
               </span>
-              <div className="animated-font">Food/Drink</div>
+              <p className="animated-font">
+                {/* <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("Food")
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString("Drink")
+                      .deleteAll()
+                      .start();
+                  }}
+                /> */}
+                <Typical
+                  loop={Infinity}
+                  wrapper="b"
+                  steps={[
+                    "Cakes",
+                    1000,
+                    "Fries",
+                    1000,
+                    "Salads",
+                    1000,
+                    "Toppings",
+                    1000,
+                    "Dressings",
+                    1000,
+                    "and a lot more...",
+                    1000
+                  ]}
+                />
+              </p>
               <span className="medium-font">in the world</span>
             </div>
             <span className="catch-tag">
