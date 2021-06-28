@@ -1,58 +1,67 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CookBook.css";
 
 export function CookBook() {
   return (
     <div className="grocery-list-container">
       <div className="vertical-navbar">
-        <a href="/cookbook">
-          <svg
-            data-testid="icon-book"
-            viewBox="0 0 20 20"
-            height="1.5em"
-            width="1.5em"
-            fill="#DDE2E3"
-          >
-            <path d="M17,5.95v10.351c0,0.522-0.452,0.771-1,1.16c-0.44,0.313-1-0.075-1-0.587c0,0,0-9.905,0-10.114c0-0.211-0.074-0.412-0.314-0.535c-0.24-0.123-7.738-4.065-7.738-4.065C6.827,2.115,6.299,1.782,5.595,2.144C4.926,2.488,4.562,2.862,4.469,3.038l8.18,4.482C12.866,7.634,13,7.81,13,8.036v10.802c0,0.23-0.142,0.476-0.369,0.585c-0.104,0.052-0.219,0.077-0.333,0.077c-0.135,0-0.271-0.033-0.386-0.104c-0.215-0.131-7.774-4.766-8.273-5.067c-0.24-0.144-0.521-0.439-0.527-0.658L3,3.385c0-0.198-0.023-0.547,0.289-1.032c0.697-1.084,3.129-2.317,4.36-1.678l8.999,4.555C16.865,5.342,17,5.566,17,5.95z"></path>
-          </svg>
-        </a>
+        <Link to="/cookbook">
+          <a href="/cookbook">
+            <svg
+              data-testid="icon-book"
+              viewBox="0 0 20 20"
+              height="1.5em"
+              width="1.5em"
+              fill="#DDE2E3"
+            >
+              <path d="M17,5.95v10.351c0,0.522-0.452,0.771-1,1.16c-0.44,0.313-1-0.075-1-0.587c0,0,0-9.905,0-10.114c0-0.211-0.074-0.412-0.314-0.535c-0.24-0.123-7.738-4.065-7.738-4.065C6.827,2.115,6.299,1.782,5.595,2.144C4.926,2.488,4.562,2.862,4.469,3.038l8.18,4.482C12.866,7.634,13,7.81,13,8.036v10.802c0,0.23-0.142,0.476-0.369,0.585c-0.104,0.052-0.219,0.077-0.333,0.077c-0.135,0-0.271-0.033-0.386-0.104c-0.215-0.131-7.774-4.766-8.273-5.067c-0.24-0.144-0.521-0.439-0.527-0.658L3,3.385c0-0.198-0.023-0.547,0.289-1.032c0.697-1.084,3.129-2.317,4.36-1.678l8.999,4.555C16.865,5.342,17,5.566,17,5.95z"></path>
+            </svg>
+          </a>
+        </Link>
         <br />
-        <a href="/meal-planner">
-          <svg
-            data-testid="icon-calendar"
-            viewBox="0 0 20 20"
-            height="1.5em"
-            width="1.5em"
-            fill="#DDE2E3"
-          >
-            <path d="M17,3h-1v2h-3V3H7v2H4V3H3C1.899,3,1,3.9,1,5v12c0,1.1,0.899,2,2,2h14c1.1,0,2-0.9,2-2V5C19,3.9,18.1,3,17,3z M17,17H3V9h14 V17z M6.5,1h-2v3.5h2V1z M15.5,1h-2v3.5h2V1z"></path>
-          </svg>
-        </a>
+        <Link to="/meal-planner">
+          <a href="/meal-planner">
+            <svg
+              data-testid="icon-calendar"
+              viewBox="0 0 20 20"
+              height="1.5em"
+              width="1.5em"
+              fill="#DDE2E3"
+            >
+              <path d="M17,3h-1v2h-3V3H7v2H4V3H3C1.899,3,1,3.9,1,5v12c0,1.1,0.899,2,2,2h14c1.1,0,2-0.9,2-2V5C19,3.9,18.1,3,17,3z M17,17H3V9h14 V17z M6.5,1h-2v3.5h2V1z M15.5,1h-2v3.5h2V1z"></path>
+            </svg>
+          </a>
+        </Link>
         <br />
-        <a href="/grocery-cart">
-          <svg
-            data-testid="icon-groceryCart"
-            viewBox="0 0 20 20"
-            height="1.5em"
-            width="1.5em"
-            fill="#DDE2E3"
-          >
-            <path d="M13,17c0,1.104,0.894,2,2,2c1.104,0,2-0.896,2-2c0-1.106-0.896-2-2-2C13.894,15,13,15.894,13,17zM3,17c0,1.104,0.895,2,2,2c1.103,0,2-0.896,2-2c0-1.106-0.897-2-2-2C3.895,15,3,15.894,3,17zM6.547,12.172L17.615,9.01C17.826,8.949,18,8.721,18,8.5V3H4V1.4C4,1.18,3.819,1,3.601,1H0.399C0.18,1,0,1.18,0,1.4L0,3h2l1.91,8.957L4,12.9v1.649c0,0.219,0.18,0.4,0.4,0.4H17.6c0.22,0,0.4-0.182,0.4-0.4V13H6.752C5.602,13,5.578,12.449,6.547,12.172z"></path>
-          </svg>
-        </a>
+        <Link to="/grocery-cart">
+          <a href="/grocery-cart">
+            <svg
+              data-testid="icon-groceryCart"
+              viewBox="0 0 20 20"
+              height="1.5em"
+              width="1.5em"
+              fill="#DDE2E3"
+            >
+              <path d="M13,17c0,1.104,0.894,2,2,2c1.104,0,2-0.896,2-2c0-1.106-0.896-2-2-2C13.894,15,13,15.894,13,17zM3,17c0,1.104,0.895,2,2,2c1.103,0,2-0.896,2-2c0-1.106-0.897-2-2-2C3.895,15,3,15.894,3,17zM6.547,12.172L17.615,9.01C17.826,8.949,18,8.721,18,8.5V3H4V1.4C4,1.18,3.819,1,3.601,1H0.399C0.18,1,0,1.18,0,1.4L0,3h2l1.91,8.957L4,12.9v1.649c0,0.219,0.18,0.4,0.4,0.4H17.6c0.22,0,0.4-0.182,0.4-0.4V13H6.752C5.602,13,5.578,12.449,6.547,12.172z"></path>
+            </svg>
+          </a>
+        </Link>
         <br />
-        <a href="/logout">
-          <svg
-            data-testid="icon-logout"
-            viewBox="0 0 20 20"
-            height="1.5em"
-            width="1.5em"
-            fill="#DDE2E3"
-          >
-            <path d="M19,10l-6-5v3H6v4h7v3L19,10z M3,3h8V1H3C1.9,1,1,1.9,1,3v14c0,1.1,0.9,2,2,2h8v-2H3V3z"></path>
-          </svg>
-        </a>
+        <Link to="/">
+          <a href="/logout">
+            <svg
+              data-testid="icon-logout"
+              viewBox="0 0 20 20"
+              height="1.5em"
+              width="1.5em"
+              fill="#DDE2E3"
+            >
+              <path d="M19,10l-6-5v3H6v4h7v3L19,10z M3,3h8V1H3C1.9,1,1,1.9,1,3v14c0,1.1,0.9,2,2,2h8v-2H3V3z"></path>
+            </svg>
+          </a>
+        </Link>
       </div>
       <div className="none"></div>
       <div className="root-bar">
@@ -89,7 +98,7 @@ export function CookBook() {
           <div className="add-recipe-div">Add recipe</div>
         </div>
       </div>
-      <div className="main-content">Hello</div>
+      <div className="main-content"></div>
     </div>
   );
 }

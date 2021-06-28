@@ -27,7 +27,7 @@ export const WelcomePage = () => {
                     1000,
                     "Fries",
                     1000,
-                    "Salads",
+                    "Salad",
                     1000,
                     "Toppings",
                     1000,
