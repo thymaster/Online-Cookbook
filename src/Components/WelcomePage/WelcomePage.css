@@ -45,6 +45,7 @@
 .animated-font {
   font-size: 50px;
   color: #343434;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .medium-font {

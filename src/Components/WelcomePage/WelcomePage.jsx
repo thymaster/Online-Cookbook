@@ -19,17 +19,6 @@ export const WelcomePage = () => {
                 <h1 className="large-font"> Make the best</h1>
               </span>
               <p className="animated-font">
-                {/* <Typewriter
-                  onInit={(typewriter) => {
-                    typewriter
-                      .typeString("Food")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Drink")
-                      .deleteAll()
-                      .start();
-                  }}
-                /> */}
                 <Typical
                   loop={Infinity}
                   wrapper="b"
@@ -44,8 +33,12 @@ export const WelcomePage = () => {
                     1000,
                     "Dressings",
                     1000,
+                    "Food",
+                    1000,
+                    "Drink",
+                    1000,
                     "and a lot more...",
-                    1000
+                    1000,
                   ]}
                 />
               </p>
