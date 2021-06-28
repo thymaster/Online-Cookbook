@@ -4,7 +4,7 @@ import { Register } from "./Components/Register/Register";
 import { Home } from "./Components/Home/Home";
 import { Contact } from "./Components/Contact/Contact";
 import { AboutUs } from "./Components/AboutUs/AboutUs";
-import { SideBar } from "./Components/SideBar/SideBar";
+import { CookBook } from "./Components/CookBook/CookBook";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import "./App.css";
 
@@ -25,7 +25,7 @@ function App() {
             />
             <Route path="/contact" component={Contact} />
             <Route path="/aboutus" component={AboutUs} />
-            <Route path="/grocery-list" component={SideBar} />
+            <Route path="/cookbook" component={CookBook} />
           </Switch>
         </div>
       </BrowserRouter>

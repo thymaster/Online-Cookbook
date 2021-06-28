@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "./SideBar.css";
+import "./CookBook.css";
 
-export function SideBar() {
+export function CookBook() {
   return (
     <div className="grocery-list-container">
       <div className="vertical-navbar">
