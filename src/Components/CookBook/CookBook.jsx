@@ -8,7 +8,7 @@ export function CookBook() {
     <div className="grocery-list-container">
       <div className="vertical-navbar">
         <Link to="/cookbook">
-          <a href="/cookbook">
+          <a href="/cookbook" title="Cookbook">
             <svg
               data-testid="icon-book"
               viewBox="0 0 20 20"
@@ -22,7 +22,7 @@ export function CookBook() {
         </Link>
         <br />
         <Link to="/meal-planner">
-          <a href="/meal-planner">
+          <a href="/meal-planner" title="Meal Planner">
             <svg
               data-testid="icon-calendar"
               viewBox="0 0 20 20"
@@ -35,8 +35,8 @@ export function CookBook() {
           </a>
         </Link>
         <br />
-        <Link to="/grocery-cart">
-          <a href="/grocery-cart">
+        <Link to="/grocery-list">
+          <a href="/grocery-list" title="Grocery List">
             <svg
               data-testid="icon-groceryCart"
               viewBox="0 0 20 20"
@@ -50,7 +50,7 @@ export function CookBook() {
         </Link>
         <br />
         <Link to="/">
-          <a href="/logout">
+          <a href="/logout" title="See you again!">
             <svg
               data-testid="icon-logout"
               viewBox="0 0 20 20"

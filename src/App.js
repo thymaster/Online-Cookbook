@@ -6,7 +6,6 @@ import { Contact } from "./Components/Contact/Contact";
 import { AboutUs } from "./Components/AboutUs/AboutUs";
 import { CookBook } from "./Components/CookBook/CookBook";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-// import "./App.css";
 
 function App() {
   return (

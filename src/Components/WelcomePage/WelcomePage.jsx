@@ -3,7 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ImageCarousel } from "../ImageCarousel/ImageCarousel";
 import { SliderData } from "../SliderData/SliderData";
-// import Typewriter from "react-typewriter";
+import { MealPlanner } from "../MealPlanner/MealPlanner";
+import { MakeOwn } from "../MakeOwn/MakeOwn";
 import Typical from "react-typical";
 
 import "./WelcomePage.css";
@@ -24,21 +25,21 @@ export const WelcomePage = () => {
                   wrapper="b"
                   steps={[
                     "Cakes",
-                    1000,
+                    2000,
                     "Fries",
-                    1000,
+                    2000,
                     "Salad",
-                    1000,
+                    2000,
                     "Toppings",
-                    1000,
+                    2000,
                     "Dressings",
-                    1000,
+                    2000,
                     "Food",
-                    1000,
+                    2000,
                     "Drink",
-                    1000,
+                    2000,
                     "and a lot more...",
-                    1000,
+                    2000,
                   ]}
                 />
               </p>
@@ -58,37 +59,7 @@ export const WelcomePage = () => {
         </div>
       </section>
       <section className="sections make-your-own">
-        <div className="make-section">
-          <div className="content-container">
-            <div className="section-image">
-              <img
-                className="img"
-                src="https://images.unsplash.com/photo-1514986888952-8cd320577b68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
-                alt="picture of ingredients on various spoons"
-              />
-            </div>
-            <div className="section-text">
-              <div className="information">
-                <b>Create anything you imagine</b>
-                Bring out the master chef in you <br />
-                with Bits n Bytes recipe editor. <br />
-                Be as creative as you are. <br />
-              </div>
-              <div className="information">
-                <b>All your recipes in one place</b>
-                With all your work taken care by us, <br />
-                you can just focus on <br />
-                making the best ever food. <br />
-              </div>
-              <div className="information">
-                <b>Meal Planner</b>
-                Busy with your work? <br />
-                Plan your meals ahead, <br />
-                so that you can directly jump to business. <br />
-              </div>
-            </div>
-          </div>
-        </div>
+        <MakeOwn />
       </section>
       <section className="sections add-recipes">
         <div>
@@ -96,7 +67,9 @@ export const WelcomePage = () => {
         </div>
       </section>
       <section className="sections organize-recipes">Grocery List</section>
-      <section className="sections meal-planner">meal planner</section>
+      <section className="sections meal-planner">
+        <MealPlanner />
+      </section>
     </div>
   );
 };

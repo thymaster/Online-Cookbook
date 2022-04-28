@@ -39,7 +39,7 @@ export const Register = (props) => {
           </Link>
         </div>
         <div className="credentials">
-          <div className={forDetails ? "details details-new" : "details"}>
+          <div className={forDetails ? "details" : "details"}>
             {isSignUp && (
               <div>
                 <label className="for-alignment" htmlFor="name" required>
@@ -62,6 +62,16 @@ export const Register = (props) => {
             <br />
             <input className="for-alignment" type="password" />
             <br />
+            {isSignUp && (
+              <div>
+                <label className="for-alignment" htmlFor="password" required>
+                  Confirm Password
+                </label>
+                <br />
+                <input className="for-alignment" type="password" />
+                <br />
+              </div>
+            )}
             {!isSignUp && (
               <a href="#">
                 <div className="forgot-password">Forgot Password?</div>
@@ -80,7 +90,7 @@ export const Register = (props) => {
               </Link>
             </a>
           </div>
-          <div className={forMargin ? "graphic graphic-new" : "graphic"}></div>
+          <div className={forMargin ? "graphic" : "graphic"}></div>
         </div>
       </div>
     </div>
